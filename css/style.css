@@ -95,6 +95,10 @@
     color: #595959;
   }
 
+  .img-profile {
+    width: 450px;
+  }
+
 
   .duration-project {
     font-size: 11px;
@@ -157,6 +161,14 @@
     }
     .container-form{
       width: 90%;
+    }
+
+    .img-profile {
+      width: 250px;
+    }
+
+    .profile .detail-desc {
+      max-width: none;
     }
 
     .profile-testimonial{
