@@ -159,13 +159,18 @@
       z-index: 99;
       background-color: #FFFF;
     }
+
+    .desc h1 {
+      font-size: 48px;
+    }
     .container-form{
       width: 90%;
     }
 
     .img-profile {
-      width: 250px;
+      width: 310px;
     }
+
 
     .profile .detail-desc {
       max-width: none;
