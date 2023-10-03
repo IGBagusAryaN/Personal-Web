@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  body {
+    margin-inline: 120px;
+  }
+
+  h1 {
+    font-size: 52px;
+  }
+
+  h2{
+    font-size: 24px;
+  }
+
+  p{
+    font-size: 12px;
+  }
+  
+  .bg-btn {
+    background-color: #111727 !important;
+  }
+  
+  .bg-btn:hover {
+    background-color: #25324B !important;
+  }
+  
+  .active {
+    color: #25324B !important;
+    font-weight: 500;
+  }
+
+  .btn-active {
+    background-color: #25324B !important;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 81%;
+    z-index: 99;
+    background-color: #FFFF;
+  }
+
+  .nav-link {
+    padding-top: 0;
+  }
+
+  .login {
+    text-decoration: none;
+    color: #25324B;
+  }
+
+  .login:hover {
+    color: #6E6C65;
+  }
+
+  .container-form{
+    width: 60%;
+  }
+
+  .download{
+    color: #111727;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .social img{
+    background-color: #25324B;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #25324B;
+  }
+
+  .social img:hover{
+    background-color: #3c4350;
+    color: #25324B;
+  }
+
+  .profile {
+    height: 100vh;
+  }
+
+  .profile .detail-desc {
+    max-width: 400px;
+    color: #595959;
+  }
+
+
+  .duration-project {
+    font-size: 11px;
+    color: gray;
+  }
+  
+  .post-time-project {
+    font-size: 10px;
+    color: gray;
+  }
+  
+  .button-project .btn{
+    width: 100%;
+  }
+
+  .card-text {
+    font-weight: 400;
+    margin-block: 10px;
+    text-align: justify;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+
+
+  .form-d {
+    width: 100%;
+  }
+
+  
+  .container-form-auth{
+    width: 500px;
+  }
+
+  .btn-rating {
+    background-color: #111727 !important;
+  }
+
+  .btn-rating:hover {
+    background-color: orangered !important;
+  }
+
+  .profile-testimonial {
+    height: 200px !important;
+    object-fit: cover;
+    filter: drop-shadow(4px 2px 6px rgba(0, 0, 0, 0.3));
+  }
+
+  
+  @media only screen and (max-width: 550px) {
+    body {
+      margin-inline: 0;
+    }
+    .navbar {
+      position: fixed;
+      width: 100%;
+      z-index: 99;
+      background-color: #FFFF;
+    }
+    .container-form{
+      width: 90%;
+    }
+
+    .profile-testimonial{
+      height: 250px !important;
+    }
+    }
