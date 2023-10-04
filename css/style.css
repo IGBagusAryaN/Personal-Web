@@ -183,6 +183,7 @@
   }
 
   
+  
   @media only screen and (max-width: 550px) {
     body {
       margin-inline: 0;
@@ -212,7 +213,7 @@
       width: 330px;
     }
 
-
+    
     .profile .detail-desc {
       max-width: none;
     }
@@ -223,5 +224,9 @@
 
     #testimonials .card {
       width: 90%;
+    }
+
+    .info-project {
+      margin-inline: 1px;
     }
     }
