@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: ClashDisplay;
+  src: url(../assets/font/ClashDisplay-Bold.otf);
+}
 
 
 * {
@@ -14,7 +18,8 @@
   }
 
   h1 {
-    font-size: 52px;
+    font-size: 44px;
+    font-family: ClashDisplay;
   }
 
   h2{
@@ -68,6 +73,10 @@
   }
   .desc span {
     font-size: 52px;
+  }
+
+  .desc h1, .desc span {
+    font-family: ClashDisplay;
   }
 
   .download{
@@ -165,10 +174,11 @@
     }
 
     .desc h1 {
-      font-size: 52px;
+      font-size: 46px;
       line-height: 45px;
     }
 
+    
     .desc span {
       font-size: 40px;
     }
