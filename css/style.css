@@ -18,7 +18,7 @@
   }
 
   h1 {
-    font-size: 44px;
+    font-size: 36px;
     font-family: ClashDisplay;
     letter-spacing: 4px;
   }
@@ -178,6 +178,10 @@
     text-align: justify;
   }
 
+  #testimonials .card {
+    width: 288px;
+  }
+
   
   @media only screen and (max-width: 550px) {
     body {
@@ -191,7 +195,7 @@
     }
 
     .desc h1 {
-      font-size: 46px;
+      font-size: 42px;
       line-height: 45px;
     }
 
@@ -215,5 +219,9 @@
 
     .profile-testimonial{
       height: 250px !important;
+    }
+
+    #testimonials .card {
+      width: 90%;
     }
     }
