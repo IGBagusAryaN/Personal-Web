@@ -20,10 +20,15 @@
   h1 {
     font-size: 44px;
     font-family: ClashDisplay;
+    letter-spacing: 4px;
   }
 
   h2{
     font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
   }
 
   p{
@@ -109,7 +114,11 @@
   }
 
   .img-profile {
-    width: 450px;
+    width: 100%;
+  }
+
+  .container-form{
+    width: 60%;
   }
 
 
@@ -159,6 +168,14 @@
     height: 200px !important;
     object-fit: cover;
     filter: drop-shadow(4px 2px 6px rgba(0, 0, 0, 0.3));
+  }
+
+  .img-p-detail {
+    width: 100%;
+  }
+
+  .desc-project {
+    text-align: justify;
   }
 
   
