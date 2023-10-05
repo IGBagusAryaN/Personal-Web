@@ -14,7 +14,7 @@
   }
 
   body {
-    margin-inline: 120px;
+    padding-inline: 120px;
     transition: .3s;
   }
 
@@ -187,15 +187,28 @@
     height: 100%;
   }  
 
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 766px) {
     body {
-      margin-inline: 50px;
+      padding-inline: 50px;
+    }
+
+    .img-profile {
+      width: 80%;
+    }
+
+    .desc h1 {
+      font-size: 52px;
+      line-height: 45px;
+    }
+
+    .desc span {
+      font-size: 44px;
     }
   }
   
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 480px) {
     body {
-      margin-inline: 0;
+      padding-inline: 0;
     }
     .navbar {
       position: fixed;
@@ -219,7 +232,7 @@
     }
 
     .img-profile {
-      width: 330px;
+      width: 85%;
     }
 
     
