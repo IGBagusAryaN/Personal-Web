@@ -115,7 +115,8 @@
   }
 
   .img-profile {
-    width: 100%;
+    width: 100%; 
+    transition: .3s;
   }
 
   .container-form{
