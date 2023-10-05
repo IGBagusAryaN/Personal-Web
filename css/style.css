@@ -235,4 +235,8 @@
       width: 100%;
       font-size: 34px;
     }
+
+    .btn-submit {
+      width: 100%;
+    }
     }
