@@ -192,6 +192,10 @@
       padding-inline: 50px;
     }
 
+    .desc {
+      margin-top: 40px;
+    }
+
     .desc h1 {
       font-size: 52px;
       line-height: 45px;
@@ -213,12 +217,15 @@
       background-color: #FFFF;
     }
 
+    .desc {
+      margin-top: -180px;
+    }
+
     .desc h1 {
       font-size: 42px;
       line-height: 45px;
     }
 
-    
     .desc span {
       font-size: 34px;
     }
@@ -228,7 +235,7 @@
     }
 
     .img-profile {
-      height: 85%;
+      height: 70%;
     }
 
     
