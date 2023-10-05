@@ -184,9 +184,7 @@
 
   .info-project {
     height: 100%;
-  }
-
-  
+  }  
   
   @media only screen and (max-width: 550px) {
     body {
@@ -206,7 +204,7 @@
 
     
     .desc span {
-      font-size: 40px;
+      font-size: 34px;
     }
 
     .container-form{
@@ -232,5 +230,9 @@
 
     .info-project {
       margin-inline: 1px;
+    }
+    .contact-title {
+      width: 100%;
+      font-size: 34px;
     }
     }
